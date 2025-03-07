@@ -56,24 +56,34 @@
 
 nav {
   background-color: #ffc017;
+  position: sticky;
+  top: 0;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 60px;
   border-bottom: 2px solid black;
+  z-index: 1000;
+  transition: background-color 0.3s;
 }
 
+.nav.scrolled {
+  background-color: white;
+}
+
+/* Contenitore principale */
 nav div {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 80%;
   align-items: center;
 }
 
 nav h1 {
   margin: 0;
   font-size: 2rem;
+  color: black;
 }
 
 nav ul {
@@ -85,8 +95,9 @@ nav ul {
 
 nav li {
   display: inline;
-  font-size: 0.9em;
+  font-size: 1rem;
   margin: 10px 20px;
+  cursor: pointer;
 }
 
 nav button {
@@ -96,6 +107,11 @@ nav button {
   color: white;
   padding: 8px 16px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #444;
 }
 
 .banner {
@@ -215,8 +231,8 @@ article h1 {
 }
 
 .article-2 {
+  width: 70%;
   margin: 30px 0px 20px 0px;
-
   display: flex;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -225,7 +241,6 @@ article h1 {
 }
 
 .text-article-2 {
-  width: 40%;
   display: inline;
 }
 
@@ -272,4 +287,53 @@ span {
 .img-card {
   width: 200px;
   margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.right-column {
+  width: 40%;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.right-column h5 {
+  margin-bottom: 20px; /* Distanza tra il titolo e i paragrafi */
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.right-column div p {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 0.8rem;
+  width: auto;
+  border: 1px solid #ccc; /* Bordo grigio */
+  box-sizing: border-box;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.options {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(196, 195, 195);
+}
+
+.right-column ul {
+  margin-left: 0;
+}
+
+.right-column li {
+  display: inline-block;
+  font-size: 0.9rem;
+  margin: 10px 20px;
+  opacity: 0.5;
+  margin-left: 0;
 }
