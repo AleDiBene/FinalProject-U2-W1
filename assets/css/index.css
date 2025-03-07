@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+.spectral-extralight {
+  font-family: "Spectral", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.spectral-light {
+  font-family: "Spectral", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.spectral-regular {
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spectral-medium {
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.spectral-semibold {
+  font-family: "Spectral", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.spectral-bold {
+  font-family: "Spectral", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.spectral-extrabold {
+  font-family: "Spectral", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+* {
+  margin: 0;
+}
+
+nav {
+  background-color: #ffc017;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  border-bottom: 2px solid black;
+}
+
+nav div {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  align-items: center;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  display: inline;
+  font-size: 0.9em;
+  margin: 10px 20px;
+}
+
+nav button {
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.banner {
+  background-color: #ffc017;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+.text-banner {
+  width: 40%;
+  margin-left: 15%;
+}
+
+.banner h1 {
+  font-size: 6em;
+  margin-top: 50px;
+}
+
+.banner p {
+  font-size: 1.5rem;
+}
+
+.banner button {
+  border: none;
+  border-radius: 30px;
+  font-size: 1em;
+  background-color: black;
+  color: white;
+  padding: 10px 40px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.banner-svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.M {
+  width: 60%;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+section img {
+  vertical-align: bottom;
+  margin-right: 10px;
+}
+
+section h5 {
+  display: flex;
+  display: inline;
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.first-article {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgb(196, 195, 195);
+}
+
+article {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 25%;
+  margin-right: 60px;
+  margin-top: 30px;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.text-article {
+  margin-left: 20px;
+}
+article img {
+  width: 20px;
+  border-radius: 30px;
+}
+
+article p {
+  display: inline;
+  font-size: smaller;
+}
+
+.text-article h4 {
+  margin: 10px 0px;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date p {
+  font-size: smaller;
+  opacity: 0.6;
+}
+
+article h1 {
+  font-size: 2rem;
+  opacity: 0.3;
+}
+
+.article-2 {
+  margin: 30px 0px 20px 0px;
+
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.text-article-2 {
+  width: 40%;
+  display: inline;
+}
+
+.text-article-2 img {
+  border-radius: 30px;
+  display: inline;
+}
+
+.text-article-2 p {
+  display: inline;
+  font-size: small;
+  font-weight: 400;
+  opacity: 0.5;
+  margin: 10px 0px;
+}
+
+.text-article-2 h4 {
+  margin: 10px 0px;
+}
+
+.dates {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.dates p {
+  margin-right: 10px;
+  font-size: smaller;
+  opacity: 0.6;
+}
+
+article h1 {
+  font-size: 2rem;
+  opacity: 0.3;
+}
+
+span {
+  background-color: rgba(203, 200, 200, 0.553);
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+
+.img-card {
+  width: 200px;
+  margin-left: 10px;
+}
